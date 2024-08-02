@@ -2,8 +2,8 @@ h1{
     margin:0px;
     font-family:"Montserrat";
 }
-bsody{
-    background: linear-gradient(to bottom, #ffd699, #ffffff);
+body{
+    background-color:white;
 }
 a{
     cursor:pointer;
