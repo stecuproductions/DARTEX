@@ -1,0 +1,159 @@
+<!DOCTYPE html>
+<html lang="pl">
+<head>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&family=Ubuntu:ital,wght@0,300;0,400;0,500;0,700;1,300;1,400;1,500;1,700&display=swap" rel="stylesheet">
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>DARTEX</title>
+    <link rel="stylesheet" href="./stylesheet.css">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
+  <style>
+    a{
+      text-decoration: none;
+    }
+    .active-link {
+    color: #f08000; /* lub inny kolor wskazujący aktywność */
+    font-weight: bold;
+  }
+  </style>
+</head>
+<body>
+    <nav class="navbar navbar-expand-lg navbar-light bg-light" style="padding-right: 30px;">
+        <div class="container-fluid">
+            <a class="navbar-brand" href="index.html">
+                <img src="./images/logo.png" alt="logo" class="logo" style="height: 40px; padding-left: 18px;">
+            </a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse " id="navbarNav">
+                <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+                    <li class="nav-item">
+                        <a class="nav-link link active-link" href="./index.html">Firma</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link link" href="#">Produkty</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link link" href="#">Certyfikaty</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link link" href="./kontakt.html">Kontakt</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link link" href="./uslugi.html">Usługi</a>
+                    </li>
+                </ul>
+                <div class="d-flex" style="padding:0px">
+                  <a href="">
+                    <svg xmlns="http://www.w3.org/2000/svg" width="40" height="40" viewBox="0 0 32 32"><path d="M1,24c0,2.209,1.791,4,4,4H27c2.209,0,4-1.791,4-4V15H1v9Z" fill="#cb2e40"></path><path d="M27,4H5c-2.209,0-4,1.791-4,4v8H31V8c0-2.209-1.791-4-4-4Z" fill="#fff"></path><path d="M5,28H27c2.209,0,4-1.791,4-4V8c0-2.209-1.791-4-4-4H5c-2.209,0-4,1.791-4,4V24c0,2.209,1.791,4,4,4ZM2,8c0-1.654,1.346-3,3-3H27c1.654,0,3,1.346,3,3V24c0,1.654-1.346,3-3,3H5c-1.654,0-3-1.346-3-3V8Z" opacity=".15"></path><path d="M27,5H5c-1.657,0-3,1.343-3,3v1c0-1.657,1.343-3,3-3H27c1.657,0,3,1.343,3,3v-1c0-1.657-1.343-3-3-3Z" fill="#fff" opacity=".2"></path></svg>
+                </a>
+                <a href="">
+                    <svg xmlns="http://www.w3.org/2000/svg" width="40" height="40" viewBox="0 0 32 32"><path fill="#1435a1" d="M1 11H31V21H1z"></path><path d="M5,4H27c2.208,0,4,1.792,4,4v4H1v-4c0-2.208,1.792-4,4-4Z" fill="#fff"></path><path d="M5,20H27c2.208,0,4,1.792,4,4v4H1v-4c0-2.208,1.792-4,4-4Z" transform="rotate(180 16 24)" fill="#c53a28"></path><path d="M27,4H5c-2.209,0-4,1.791-4,4V24c0,2.209,1.791,4,4,4H27c2.209,0,4-1.791,4-4V8c0-2.209-1.791-4-4-4Zm3,20c0,1.654-1.346,3-3,3H5c-1.654,0-3-1.346-3-3V8c0-1.654,1.346-3,3-3H27c1.654,0,3,1.346,3,3V24Z" opacity=".15"></path><path d="M27,5H5c-1.657,0-3,1.343-3,3v1c0-1.657,1.343-3,3-3H27c1.657,0,3,1.343,3,3v-1c0-1.657-1.343-3-3-3Z" fill="#fff" opacity=".2"></path></svg>
+                </a>
+                <a href="">
+                    <svg xmlns="http://www.w3.org/2000/svg" width="40" height="40" viewBox="0 0 32 32"><rect x="1" y="4" width="30" height="24" rx="4" ry="4" fill="#071b65"></rect><path d="M5.101,4h-.101c-1.981,0-3.615,1.444-3.933,3.334L26.899,28h.101c1.981,0,3.615-1.444,3.933-3.334L5.101,4Z" fill="#fff"></path><path d="M22.25,19h-2.5l9.934,7.947c.387-.353,.704-.777,.929-1.257l-8.363-6.691Z" fill="#b92932"></path><path d="M1.387,6.309l8.363,6.691h2.5L2.316,5.053c-.387,.353-.704,.777-.929,1.257Z" fill="#b92932"></path><path d="M5,28h.101L30.933,7.334c-.318-1.891-1.952-3.334-3.933-3.334h-.101L1.067,24.666c.318,1.891,1.952,3.334,3.933,3.334Z" fill="#fff"></path><rect x="13" y="4" width="6" height="24" fill="#fff"></rect><rect x="1" y="13" width="30" height="6" fill="#fff"></rect><rect x="14" y="4" width="4" height="24" fill="#b92932"></rect><rect x="14" y="1" width="4" height="30" transform="translate(32) rotate(90)" fill="#b92932"></rect><path d="M28.222,4.21l-9.222,7.376v1.414h.75l9.943-7.94c-.419-.384-.918-.671-1.471-.85Z" fill="#b92932"></path><path d="M2.328,26.957c.414,.374,.904,.656,1.447,.832l9.225-7.38v-1.408h-.75L2.328,26.957Z" fill="#b92932"></path><path d="M27,4H5c-2.209,0-4,1.791-4,4V24c0,2.209,1.791,4,4,4H27c2.209,0,4-1.791,4-4V8c0-2.209-1.791-4-4-4Zm3,20c0,1.654-1.346,3-3,3H5c-1.654,0-3-1.346-3-3V8c0-1.654,1.346-3,3-3H27c1.654,0,3,1.346,3,3V24Z" opacity=".15"></path><path d="M27,5H5c-1.657,0-3,1.343-3,3v1c0-1.657,1.343-3,3-3H27c1.657,0,3,1.343,3,3v-1c0-1.657-1.343-3-3-3Z" fill="#fff" opacity=".2"></path></svg>
+                </a>
+                <a href="">
+                    <svg xmlns="http://www.w3.org/2000/svg" width="40" height="40" viewBox="0 0 32 32"><path fill="#cc2b1d" d="M1 11H31V21H1z"></path><path d="M5,4H27c2.208,0,4,1.792,4,4v4H1v-4c0-2.208,1.792-4,4-4Z"></path><path d="M5,20H27c2.208,0,4,1.792,4,4v4H1v-4c0-2.208,1.792-4,4-4Z" transform="rotate(180 16 24)" fill="#f8d147"></path><path d="M27,4H5c-2.209,0-4,1.791-4,4V24c0,2.209,1.791,4,4,4H27c2.209,0,4-1.791,4-4V8c0-2.209-1.791-4-4-4Zm3,20c0,1.654-1.346,3-3,3H5c-1.654,0-3-1.346-3-3V8c0-1.654,1.346-3,3-3H27c1.654,0,3,1.346,3,3V24Z" opacity=".15"></path><path d="M27,5H5c-1.657,0-3,1.343-3,3v1c0-1.657,1.343-3,3-3H27c1.657,0,3,1.343,3,3v-1c0-1.657-1.343-3-3-3Z" fill="#fff" opacity=".2"></path></svg>
+                </a>
+                </div>
+            </div>
+        </div>
+    </nav>
+<div class="company-details-container">
+    <div class="text-container">
+      <div class="slogan-container">
+          <h1 class="slogan">Producent dzianin barwionych i drukowanych najwyższej jakości!</h1>
+      </div>
+      <div class="company-describtion-paragraph-container">
+          <p class="paragraphs-font" style="margin-bottom:10px;">Specjalnością naszej firmy jest produkcja dzianin bawełnianych, których gramatura oraz wzornictwo i kolorystyka jest dostosowane do oczekiwań naszych zleceniodawców. Za sprawą naszego wieloletniego doświadczenia w branży włókienniczej oraz posiadania rozbudowanego i nowoczesnego zaplecza maszynowego, jesteśmy w stanie podjąć się realizacji zleceń o zróżnicowanym stopniu skomplikowania. Firma Dartex z Łodzi produkuje bawełniane dzianiny barwione oraz drukowane cyfrowo</p>
+          <p class="paragraphs-font">Doskonale znamy tajniki branży włókienniczej oraz wiemy po jakie tkaniny należy sięgnąć oraz jakich technik użyć, aby otrzymać wyrób o określonych parametrach użytkowych i wyglądzie. Ponadto nasza profesjonalna dziewiarnia, a także drukarnia i farbiarnia tkanin umożliwia nam zaproponowanie Klientom wielobarwnego i zróżnicowanego asortymentu wyrobów włókienniczych. Jako producent bawełny drukowanej i barwionej, który ceni sobie opinię swoich Klientów mamy nadzieję, że nasza hurtownia dzianin jest w stanie zaproponować Państwu rozwiązania spełniające indywidualne potrzeby.</p>
+      </div>
+    </div>
+    <div class="carousel-container">
+        <div id="carouselExampleIndicators" class="carousel slide">
+            <div class="carousel-indicators">
+              <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
+              <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="1" aria-label="Slide 2"></button>
+              <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="2" aria-label="Slide 3"></button>
+            </div>
+            <div class="carousel-inner">
+              <div class="carousel-item active">
+                <img src="./images/maszyna1.jpg" class="d-block w-100 carousel-photo" alt="...">
+              </div>
+              <div class="carousel-item">
+                <img src="./images/maszyna2.jpg" class="d-block w-100 carousel-photo" alt="...">
+              </div>
+              <div class="carousel-item">
+                <img src="./images/maszyna3.jpg" class="d-block w-100 carousel-photo" alt="...">
+              </div>
+            </div>
+            <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide="prev">
+              <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+              <span class="visually-hidden">Previous</span>
+            </button>
+            <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide="next">
+              <span class="carousel-control-next-icon" aria-hidden="true"></span>
+              <span class="visually-hidden">Next</span>
+            </button>
+          </div>
+    </div>
+</div>
+<div class="slogan2-container">
+  <h2>Gwarancja zadowolenia i satysfakcji!</h2>
+  <p>Wytwarzając nasze dzianiny bawełniane korzystamy tylko z certyfikowanych barwników i środków chemicznych. Wszystkie nasze wyroby objęte są certyfikatami, spełniającymi światowe normy jakości oraz bezpieczeństwa.</p>
+</div>
+
+<div class="contact-introduction">
+  <h2>Pytania?</h2>
+  <p>Skontaktuj się z nami!</p>
+</div>
+<div class="contact-details-container">
+  <div class="contact-card">
+    <div>
+      <svg viewBox="0 0 24 24" width=80 height=80 fill="none" xmlns="http://www.w3.org/2000/svg" stroke="#000000"><g id="SVGRepo_bgCarrier" stroke-width="0"></g><g id="SVGRepo_tracerCarrier" stroke-linecap="round" stroke-linejoin="round"></g><g id="SVGRepo_iconCarrier"> <path d="M15.5562 14.5477L15.1007 15.0272C15.1007 15.0272 14.0181 16.167 11.0631 13.0559C8.10812 9.94484 9.1907 8.80507 9.1907 8.80507L9.47752 8.50311C10.1841 7.75924 10.2507 6.56497 9.63424 5.6931L8.37326 3.90961C7.61028 2.8305 6.13596 2.68795 5.26145 3.60864L3.69185 5.26114C3.25823 5.71766 2.96765 6.30945 3.00289 6.96594C3.09304 8.64546 3.81071 12.259 7.81536 16.4752C12.0621 20.9462 16.0468 21.1239 17.6763 20.9631C18.1917 20.9122 18.6399 20.6343 19.0011 20.254L20.4217 18.7584C21.3806 17.7489 21.1102 16.0182 19.8833 15.312L17.9728 14.2123C17.1672 13.7486 16.1858 13.8848 15.5562 14.5477Z" fill="#000000"></path> <path d="M13.2595 1.87983C13.3257 1.47094 13.7122 1.19357 14.1211 1.25976C14.1464 1.26461 14.2279 1.27983 14.2705 1.28933C14.3559 1.30834 14.4749 1.33759 14.6233 1.38082C14.9201 1.46726 15.3347 1.60967 15.8323 1.8378C16.8286 2.29456 18.1544 3.09356 19.5302 4.46936C20.906 5.84516 21.705 7.17097 22.1617 8.16725C22.3899 8.66487 22.5323 9.07947 22.6187 9.37625C22.6619 9.52466 22.6912 9.64369 22.7102 9.72901C22.7197 9.77168 22.7267 9.80594 22.7315 9.83125L22.7373 9.86245C22.8034 10.2713 22.5286 10.6739 22.1197 10.7401C21.712 10.8061 21.3279 10.53 21.2601 10.1231C21.258 10.1121 21.2522 10.0828 21.2461 10.0551C21.2337 9.9997 21.2124 9.91188 21.1786 9.79572C21.1109 9.56339 20.9934 9.21806 20.7982 8.79238C20.4084 7.94207 19.7074 6.76789 18.4695 5.53002C17.2317 4.29216 16.0575 3.59117 15.2072 3.20134C14.7815 3.00618 14.4362 2.88865 14.2038 2.82097C14.0877 2.78714 13.9417 2.75363 13.8863 2.7413C13.4793 2.67347 13.1935 2.28755 13.2595 1.87983Z" fill="#000000"></path> <path fill-rule="evenodd" clip-rule="evenodd" d="M13.4857 5.3293C13.5995 4.93102 14.0146 4.7004 14.4129 4.81419L14.2069 5.53534C14.4129 4.81419 14.4129 4.81419 14.4129 4.81419L14.4144 4.81461L14.4159 4.81505L14.4192 4.81602L14.427 4.81834C14.4468 4.8245 14.4807 4.8356 14.5031 4.84357C14.548 4.85951 14.6074 4.88217 14.6802 4.91337C14.8259 4.97581 15.0249 5.07223 15.2695 5.21694C15.7589 5.50662 16.4271 5.9878 17.2121 6.77277C17.9971 7.55775 18.4782 8.22593 18.7679 8.7154C18.9126 8.95991 19.009 9.15897 19.0715 9.30466C19.1027 9.37746 19.1254 9.43682 19.1413 9.48173C19.1493 9.50418 19.1555 9.52301 19.1604 9.53809L19.1665 9.55788L19.1688 9.56563L19.1698 9.56896L19.1702 9.5705C19.1702 9.5705 19.1707 9.57194 18.4495 9.77798L19.1707 9.57194C19.2845 9.97021 19.0538 10.3853 18.6556 10.4991C18.2607 10.6119 17.8492 10.3862 17.7313 9.99413L17.7276 9.98335C17.7223 9.96832 17.7113 9.93874 17.6928 9.89554C17.6558 9.8092 17.5887 9.66797 17.4771 9.47938C17.2541 9.10264 16.8514 8.53339 16.1514 7.83343C15.4515 7.13348 14.8822 6.73078 14.5055 6.50781C14.3169 6.39619 14.1757 6.32909 14.0893 6.29209C14.0461 6.27358 14.0165 6.26254 14.0015 6.25721L13.9907 6.25352C13.5987 6.13564 13.3729 5.72419 13.4857 5.3293Z" fill="#000000"></path> </g></svg>
+    </div>
+    <div>
+      <p class="contact-detail">Tel:+48 42 226 05 80</p>
+    </div>
+  </div>
+  <div class="contact-card">
+    <div>
+      <svg viewBox="0 -3.5 32 32" width=80 height=80 version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:sketch="http://www.bohemiancoding.com/sketch/ns" fill="#000000"><g id="SVGRepo_bgCarrier" stroke-width="0"></g><g id="SVGRepo_tracerCarrier" stroke-linecap="round" stroke-linejoin="round"></g><g id="SVGRepo_iconCarrier"> <title>mail</title> <desc>Created with Sketch Beta.</desc> <defs> </defs> <g id="Page-1" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd" sketch:type="MSPage"> <g id="Icon-Set-Filled" sketch:type="MSLayerGroup" transform="translate(-414.000000, -261.000000)" fill="#000000"> <path d="M430,275.916 L426.684,273.167 L415.115,285.01 L444.591,285.01 L433.235,273.147 L430,275.916 L430,275.916 Z M434.89,271.89 L445.892,283.329 C445.955,283.107 446,282.877 446,282.634 L446,262.862 L434.89,271.89 L434.89,271.89 Z M414,262.816 L414,282.634 C414,282.877 414.045,283.107 414.108,283.329 L425.147,271.927 L414,262.816 L414,262.816 Z M445,261 L415,261 L430,273.019 L445,261 L445,261 Z" id="mail" sketch:type="MSShapeGroup"> </path> </g> </g> </g></svg>  </div>
+    <div>
+      <p class="contact-detail">E-mail: example@gmail.com</p>
+    </div>
+  </div>
+  <div class="contact-card">
+    <div style="align-self: center;">
+      <svg height="80px" width="80px" version="1.1" id="_x32_" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" viewBox="0 0 512 512" xml:space="preserve" fill="#000000"><g id="SVGRepo_bgCarrier" stroke-width="0"></g><g id="SVGRepo_tracerCarrier" stroke-linecap="round" stroke-linejoin="round"></g><g id="SVGRepo_iconCarrier"> <style type="text/css"> .st0{fill:#000000;} </style> <g> <path class="st0" d="M58.431,384.739h18.756c29.418,0,53.27-23.852,53.27-53.27V206.638c0-29.418-23.852-53.27-53.27-53.27H58.431 c-29.418,0-53.269,23.852-53.269,53.27v124.831C5.161,360.887,29.012,384.739,58.431,384.739z"></path> <path class="st0" d="M453.526,172.682V89.007L364.501,0h-5.559H156.405v171.442v24.008v26.849v87.259v21.91 c0,44.181-35.938,80.119-80.119,80.119H57.53c-20.023,0-38.306-7.429-52.369-19.621v54.074c0,36.428,29.532,65.96,65.96,65.96 h369.758c36.428,0,65.96-29.532,65.96-65.96V237.402C506.839,205.309,483.896,178.582,453.526,172.682z M183.254,26.849h170.13 l1.373,1.372v71.065h71.081l0.84,0.838v71.318H183.254V26.849z M235.037,430.387c-9.605,0-17.393-7.788-17.393-17.392 s7.788-17.401,17.393-17.401c9.606,0,17.401,7.796,17.401,17.401S244.643,430.387,235.037,430.387z M235.037,373.692 c-9.605,0-17.393-7.787-17.393-17.393c0-9.605,7.788-17.401,17.393-17.401c9.606,0,17.401,7.796,17.401,17.401 C252.438,365.904,244.643,373.692,235.037,373.692z M235.037,317.013c-9.605,0-17.393-7.787-17.393-17.392 c0-9.605,7.788-17.401,17.393-17.401c9.606,0,17.401,7.796,17.401,17.401C252.438,309.226,244.643,317.013,235.037,317.013z M324.543,430.387c-9.606,0-17.393-7.788-17.393-17.392s7.787-17.401,17.393-17.401c9.605,0,17.401,7.796,17.401,17.401 S334.147,430.387,324.543,430.387z M324.543,373.692c-9.606,0-17.393-7.787-17.393-17.393c0-9.605,7.787-17.401,17.393-17.401 c9.605,0,17.401,7.796,17.401,17.401C341.943,365.904,334.147,373.692,324.543,373.692z M324.543,317.013 c-9.606,0-17.393-7.787-17.393-17.392c0-9.605,7.787-17.401,17.393-17.401c9.605,0,17.401,7.796,17.401,17.401 C341.943,309.226,334.147,317.013,324.543,317.013z M414.048,430.387c-9.606,0-17.393-7.788-17.393-17.392 s7.787-17.401,17.393-17.401c9.614,0,17.4,7.796,17.4,17.401S423.662,430.387,414.048,430.387z M414.048,373.692 c-9.606,0-17.393-7.787-17.393-17.393c0-9.605,7.787-17.401,17.393-17.401c9.614,0,17.4,7.796,17.4,17.401 C431.449,365.904,423.662,373.692,414.048,373.692z M414.048,317.013c-9.606,0-17.393-7.787-17.393-17.392 c0-9.605,7.787-17.401,17.393-17.401c9.614,0,17.4,7.796,17.4,17.401C431.449,309.226,423.662,317.013,414.048,317.013z M414.921,255.878H235.929c-9.885,0-17.899-8.014-17.899-17.9c0-9.885,8.014-17.899,17.899-17.899h178.993 c9.885,0,17.899,8.014,17.899,17.899C432.821,247.863,424.806,255.878,414.921,255.878z"></path> </g> </g></svg>  <div style="text-align: center;">
+      <p class="contact-detail">Fax: 42 226 05 64</p>
+    </div>
+  </div>
+</div>
+</div>
+<div class="container">
+  <footer class="py-5 my-4">
+    <ul class="nav justify-content-center border-bottom pb-3 mb-3">
+      <li class="nav-item"><a href="./index.html" class="nav-link px-2 text-body-secondary">Firma</a></li>
+      <li class="nav-item"><a href="#" class="nav-link px-2 text-body-secondary">Produkty</a></li>
+      <li class="nav-item"><a href="#" class="nav-link px-2 text-body-secondary">Certyfikaty</a></li>
+      <li class="nav-item"><a href="./kontakt.html" class="nav-link px-2 text-body-secondary">Kontakt</a></li>
+      <li class="nav-item"><a href="./uslugi.html" class="nav-link px-2 text-body-secondary">Usługi</a></li>
+    </ul>
+    <p class="text-center text-body-secondary">Copyrights © 2013 Dartex</p>
+    <p class="text-center text-body-secondary">biuro@dartex.com.pl tel.:510071245</p>
+    <p class="text-center text-body-secondary">PPHU DARTEX ul. Majora Hubala 155, Wola Zaradzyńska 95-054 Ksawerów, woj. łódzkie NIP 731-100-87-05</p>
+
+
+  </footer>
+</div>
+
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz" crossorigin="anonymous"></script>
+</body>
+</html>
+
+
