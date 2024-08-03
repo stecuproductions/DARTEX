@@ -422,10 +422,7 @@ a > svg:hover {
         text-align: start; /* Możesz użyć wartości procentowej lub konkretnej wartości np. 450px */
         font-size: 1rem;
     }
-    .service-img > img:hover{
-        width:100%;
-
-    }
+   
     .certificate-images{
         flex-direction: column;
         gap:20px;
