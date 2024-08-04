@@ -71,6 +71,9 @@ a > svg:hover {
     align-self: flex-start;
     justify-self: flex-start;
 }
+.slogan{
+    font-size:1.5rem;
+}
 
 .slogan2-container{
     display: flex;
@@ -265,6 +268,87 @@ a > svg:hover {
     font-size:1.1rem;
 }
 
+.quality-slogan{
+    background-color: #f08000;
+    margin-top: 50px;
+    padding:30px 0px 30px 0px;
+}
+.quality-slogan > h1{
+    text-align: center;
+    font-family:"Montserrat";
+    color:white;
+    font-size: 2rem;
+}
+.quality-slogan > p{
+    text-align: center;
+    font-family: "Montserrat";
+    color:white;
+    font-size: 1.5rem;
+}
+
+.quality-main{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    margin-top:50px;
+    padding-left:30px;
+    padding-right: 30px;
+    font-family: "Montserrat";
+    justify-content: center;
+    gap:30px;
+    
+}
+.quality-detail{
+    display:flex;
+    justify-content: center;
+    align-items: center;
+    gap:30px;
+}
+.quality-detail > img{
+    width:300px;
+    height: 200px;
+}
+
+
+
+.quality-text > h2{
+    font-size: 18px;
+}
+
+.company-details-2-container {
+    display: flex;
+    margin: 80px 30px;
+    justify-content: center;
+    gap: 20px;
+}
+
+.company-detail-2 {
+    background-color: white;
+    border-radius: 10px;
+    box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.1);
+    padding: 30px;
+    flex: 1 1 50%;
+    transition: transform 0.3s ease;
+}
+
+.company-detail-2:hover {
+    transform: translateY(-10px);
+}
+
+.company-detail-2 > h2 {
+    text-align: center;
+    color: #f08000;
+    font-family: "Montserrat", sans-serif;
+    margin-bottom: 20px;
+}
+
+.company-detail-2 > p {
+    font-family: "sans-serif";
+    font-size: 18px;
+    line-height: 1.6;
+    color: #333;
+}
+
+
 
 @media (min-width: 2104px){
     .text-container{
@@ -325,7 +409,7 @@ a > svg:hover {
         margin-right: 30px;
         margin-left: 30px;
     }
-    .slogan-container > h1 {
+    .slogan {
         font-size:1.2rem;
     }
     .paragraphs-font{
@@ -347,7 +431,15 @@ a > svg:hover {
     .paragraphs-font{
         margin-right: 30px;
     }
+    .quality-detail{
+        flex-direction: column;
+        align-content: center;
+    }
+    .quality-text{
+        width:300px;
+    }
 }
+
 @media(max-width:1600px){
     .services-main{
         grid-template-columns: 1fr 1fr ;
@@ -429,4 +521,14 @@ a > svg:hover {
         margin-right: 30px;
         margin-left: 30px;
     }
+    .quality-main{
+        display:flex;
+        flex-direction: column;
+        justify-content: center;
+    }
+    .quality-detail{
+        flex-direction: column;
+        text-align: center;
+    }
 }
+
