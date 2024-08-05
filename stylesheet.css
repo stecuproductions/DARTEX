@@ -54,7 +54,7 @@ a > svg:hover {
     margin-left:30px;
 }
 .paragraphs-font{
-    font-family: sans-serif;
+    font-family: Montserrat;
     font-size:16px;
     margin:0px;
 }
@@ -73,6 +73,7 @@ a > svg:hover {
 }
 .slogan{
     font-size:1.5rem;
+    margin-right:30px;
 }
 
 .slogan2-container{
@@ -94,6 +95,9 @@ a > svg:hover {
     font-size:1.5rem;
 }
 
+
+  
+  
 
 /* Standardowa wysokość zdjęć */
 .carousel-photo {
@@ -330,6 +334,7 @@ a > svg:hover {
     transition: transform 0.3s ease;
 }
 
+
 .company-detail-2:hover {
     transform: translateY(-10px);
 }
@@ -413,7 +418,7 @@ a > svg:hover {
         font-size:1.2rem;
     }
     .paragraphs-font{
-        font-size:10px;
+        font-size:16px;
     }
  
     .slogan2-container > h2{
@@ -423,10 +428,6 @@ a > svg:hover {
 
     .slogan2-container{
         padding:50px 50px;
-    }
-    .slogan2-container > p{
-        font-size: 0.7em;
-        margin:0px;
     }
     .paragraphs-font{
         margin-right: 30px;
@@ -449,6 +450,14 @@ a > svg:hover {
         height:300px;
         width:450px;
     }
+    .company-details-2-container{
+        flex-direction: column;
+        gap:9px;
+    }
+    .company-detail-2{
+        padding:30x;
+
+    }
 }
 @media (min-width:750px) and (max-width:1035px){
     .services-main{
@@ -456,6 +465,7 @@ a > svg:hover {
         flex-direction: column;
         gap:20px;
     }
+    
 }
 @media (max-width:750px){
     .contact-details-container {
@@ -530,5 +540,22 @@ a > svg:hover {
         flex-direction: column;
         text-align: center;
     }
+    .company-details-2-container{
+        display: flex;
+        flex-direction: column;
+        gap:40px;
+    }
+    .company-detail-2 {
+        background-color: white;
+        padding: 0px;
+        flex: 1 1 50%;
+        transition: transform 0.3s ease;
+        border-radius: 0px;
+        box-shadow: none;
+        
+    }
+    .slogan2-container > p{
+        font-size: 1rem;
+        margin:0px;
+    }
 }
-

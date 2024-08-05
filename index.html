@@ -18,6 +18,26 @@
     color: #f08000; /* lub inny kolor wskazujący aktywność */
     font-weight: bold;
   }
+    .custom-btn {
+    background-color: #f08000; /* Domyślny kolor tła */
+    color: white;             /* Domyślny kolor czcionki */
+    border: none;
+    cursor: pointer;
+  }
+  .custom-btn:hover{
+    color:#f08000;
+    border-width: 1px;
+    background-color: white; 
+    border-color: #f08000;
+    border-style: solid;
+  }
+  @media (max-width:1600px) {
+  .custom-btn:hover {
+    background-color: #f08000; /* Ustawienie koloru tła na domyślny */
+    color: white; /* Ustawienie koloru czcionki na domyślny */
+  }
+}
+
   </style>
 </head>
 <body>
@@ -33,9 +53,6 @@
                 <ul class="navbar-nav me-auto mb-2 mb-lg-0">
                     <li class="nav-item">
                         <a class="nav-link link active-link" href="./index.html">Firma</a>
-                    </li>
-                    <li class="nav-item">
-                        <a class="nav-link link" href="#">Produkty</a>
                     </li>
                     <li class="nav-item">
                         <a class="nav-link link" href="./certyfikat.html">Certyfikaty</a>
@@ -111,20 +128,38 @@
   <p>Wytwarzając nasze dzianiny bawełniane korzystamy tylko z certyfikowanych barwników i środków chemicznych. Wszystkie nasze wyroby objęte są certyfikatami, spełniającymi światowe normy jakości oraz bezpieczeństwa.</p>
 </div>
 <div class="company-details-2-container">
-  <div class="company-detail-2"  style="padding-right: 30px; flex: 1 1 50%;">
-      <h2>Nasza Historia</h2>
-      <p>Firma Dartex powstała w 1991 roku. Początek działalności, skupiony był głównie na usłudze drapania oraz wykańczania dzianin. Kiedy okazało się, iż rynek krajowy miał dużo większe zapotrzebowanie na tego typu usługi, nic nie stało na przeszkodzie, aby pójść o krok dalej. W 1993 roku otworzono dziewiarnię i uruchomiono własną produkcję dzianin bawełnianych. Dzięki ogromnemu zaangażowaniu właścicieli oraz pracowników firma rozwijała się prężnie i dynamicznie. Konsekwencją tych działań było stworzenie farbiarni oraz profesjonalnie wyposażonej wykańczalni. Produkowano głównie dzianiny barwione, ale już wtedy wiadomo było, że w przyszłości ofertę trzeba będzie rozszerzyć o dzianiny drukowane. Po zakupie drukarki tekstylnej firma zaczęła intensywnie rozwijać sprzedaż druków różnego rodzaju. Od tego momentu, przedsiębiorstwo stało się całkowicie niezależne, a nowoczesny park maszynowy, umożliwił produkcję dzianin na najwyższym światowym poziomie. Współpraca międzynarodowa otworzyła przed firmą nowe możliwości rozwoju, które trwają do dnia dzisiejszego.
-
-        Cały ten sukces, firma zawdzięcza głównie swoim klientom oraz profesjonalnie dobranej kadrze pracowników, bez których to wszystko nie byłoby możliwe.</p>
+  <div class="company-detail-2">
+    <h2 id="nasza-historia" tabindex="-1" style="font-family:Montserrat;">Nasza Historia</h2>
+    <p id="history-text" class="collapse" style="font-family:Montserrat;">
+      Firma Dartex powstała w 1991 roku. Początek działalności, skupiony był głównie na usłudze drapania oraz wykańczania dzianin. Kiedy okazało się, iż rynek krajowy miał dużo większe zapotrzebowanie na tego typu usługi, nic nie stało na przeszkodzie, aby pójść o krok dalej. W 1993 roku otworzono dziewiarnię i uruchomiono własną produkcję dzianin bawełnianych. Dzięki ogromnemu zaangażowaniu właścicieli oraz pracowników firma rozwijała się prężnie i dynamicznie. Konsekwencją tych działań było stworzenie farbiarni oraz profesjonalnie wyposażonej wykańczalni. Produkowano głównie dzianiny barwione, ale już wtedy wiadomo było, że w przyszłości ofertę trzeba będzie rozszerzyć o dzianiny drukowane. Po zakupie drukarki tekstylnej firma zaczęła intensywnie rozwijać sprzedaż druków różnego rodzaju. Od tego momentu, przedsiębiorstwo stało się całkowicie niezależne, a nowoczesny park maszynowy, umożliwił produkcję dzianin na najwyższym światowym poziomie. Współpraca międzynarodowa otworzyła przed firmą nowe możliwości rozwoju, które trwają do dnia dzisiejszego.
+    </p>
+    <p id="history-text-2" class="collapse" style="font-family:Montserrat;">
+      Cały ten sukces, firma zawdzięcza głównie swoim klientom oraz profesjonalnie dobranej kadrze pracowników, bez których to wszystko nie byłoby możliwe.
+    </p>
+    <div class="text-center">
+      <button class="btn custom-btn" data-bs-target="#history-text, #history-text-2" role="button" aria-expanded="false" aria-controls="history-text">
+        Rozwiń
+      </button>
+    </div>
   </div>
-  <div class="company-detail-2"  style="padding-left: 30px; flex: 1 1 50%;">
-    <h2>Nasze produkty</h2>
-    <p>W ofercie przygotowanej przez naszą firmę znajdą Państwo różnego rodzaju polskie dzianiny bawełniane, których produkcją zajmujemy się osobiście. Posiadamy zarówno dzianiny barwione, a także tkaniny drukowane. Dokładamy wszelkich starań do tego, aby ciągle rozszerzać naszą ofertę o inne tkaniny, do produkcji których wykorzystujemy nasz specjalistyczny park maszynowy. Sprzedajemy również bawełniane dzianiny drukowane cyfrowo, ale ze względu na kopiowanie naszych wzorów, nie zamieszczamy ich na stronie internetowej. Ponadto produkowane przez nas tkaniny bawełniane mogą być poddane różnego rodzaju procesom wykończeniowym, takim jak choćby drapanie, kalandrowanie, strzyżenie, a także wspomniane barwienie, dostępne w rozbudowanej palecie kolorystycznej.
+  <div class="company-detail-2">
+    <h2 id="nasze-produkty" tabindex="-1" style="font-family:Montserrat;">Nasze Produkty</h2>
+    <p id="products-text" class="collapse" style="font-family:Montserrat;">
+      W ofercie przygotowanej przez naszą firmę znajdą Państwo różnego rodzaju polskie dzianiny bawełniane, których produkcją zajmujemy się osobiście. Posiadamy zarówno dzianiny barwione, a także tkaniny drukowane. Dokładamy wszelkich starań do tego, aby ciągle rozszerzać naszą ofertę o inne tkaniny, do produkcji których wykorzystujemy nasz specjalistyczny park maszynowy. Sprzedajemy również bawełniane dzianiny drukowane cyfrowo, ale ze względu na kopiowanie naszych wzorów, nie zamieszczamy ich na stronie internetowej. Ponadto produkowane przez nas tkaniny bawełniane mogą być poddane różnego rodzaju procesom wykończeniowym, takim jak choćby drapanie, kalandrowanie, strzyżenie, a także wspomniane barwienie, dostępne w rozbudowanej palecie kolorystycznej.
+    </p>
+    <p id="products-text-2" class="collapse" style="font-family:Montserrat;">
+      Stale poszerzamy zakres naszych kompetencji w branży włókienniczej i jesteśmy otwarci na różne propozycje współpracy. W razie zapotrzebowania na nowy produkt, prosimy o kontakt i przedstawienie nam swoich oczekiwań - postaramy się spełnić Państwa potrzeby.
+    </p>
+    <div class="text-center">
+      <button class="btn custom-btn" data-bs-target="#products-text, #products-text-2" role="button" aria-expanded="false" aria-controls="products-text">
+        Rozwiń
+      </button>
+    </div>
+  </div>
+</div>
 
-      Stale poszerzamy zakres naszych kompetencji w branży włókienniczej i jesteśmy otwarci na różne propozycje współpracy. W razie zapotrzebowania na nowy produkt, prosimy o kontakt i przedstawienie nam swoich oczekiwań - postaramy się spełnić Państwa potrzeby.</p>
-</div>
-  
-</div>
+
+
 
 <div class="contact-introduction">
   <h2>Pytania?</h2>
@@ -175,6 +210,34 @@
   </footer>
 </div>
 
+<script>
+ document.addEventListener("DOMContentLoaded", function () {
+  const buttons = document.querySelectorAll(".btn.custom-btn");
+
+  buttons.forEach(button => {
+    button.addEventListener("click", function () {
+      const targets = document.querySelectorAll(this.getAttribute("data-bs-target"));
+      const expanded = this.getAttribute("aria-expanded") === "true";
+
+      // Zarządzanie stanem rozwinięcia/zwinięcia tekstu
+      targets.forEach(target => {
+        if (expanded) {
+          target.classList.remove("expanded");
+          target.classList.add("collapse");
+        } else {
+          target.classList.remove("collapse");
+          target.classList.add("expanded");
+        }
+      });
+
+      // Zmiana tekstu przycisku i stanu aria-expanded
+      this.setAttribute("aria-expanded", !expanded);
+      this.textContent = expanded ? "Rozwiń" : "Schowaj";
+    });
+  });
+});
+
+</script>
 <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz" crossorigin="anonymous"></script>
 </body>
 </html>
