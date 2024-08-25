@@ -1,0 +1,39 @@
+<div class="company-details-container">
+    <div class="text-container">
+      <div class="slogan-container">
+          <h1 class="slogan">Producent dzianin barwionych i drukowanych najwyższej jakości!</h1>
+      </div>
+      <div class="company-describtion-paragraph-container">
+          <p class="paragraphs-font" style="margin-bottom:10px;">Specjalnością naszej firmy jest produkcja dzianin bawełnianych, których gramatura oraz wzornictwo i kolorystyka jest dostosowane do oczekiwań naszych zleceniodawców. Za sprawą naszego wieloletniego doświadczenia w branży włókienniczej oraz posiadania rozbudowanego i nowoczesnego zaplecza maszynowego, jesteśmy w stanie podjąć się realizacji zleceń o zróżnicowanym stopniu skomplikowania. Firma Dartex z Łodzi produkuje bawełniane dzianiny barwione oraz drukowane cyfrowo</p>
+          <p class="paragraphs-font">Doskonale znamy tajniki branży włókienniczej oraz wiemy po jakie tkaniny należy sięgnąć oraz jakich technik użyć, aby otrzymać wyrób o określonych parametrach użytkowych i wyglądzie. Ponadto nasza profesjonalna dziewiarnia, a także drukarnia i farbiarnia tkanin umożliwia nam zaproponowanie Klientom wielobarwnego i zróżnicowanego asortymentu wyrobów włókienniczych. Jako producent bawełny drukowanej i barwionej, który ceni sobie opinię swoich Klientów mamy nadzieję, że nasza hurtownia dzianin jest w stanie zaproponować Państwu rozwiązania spełniające indywidualne potrzeby.</p>
+      </div>
+    </div>
+    <div class="carousel-container">
+        <div id="carouselExampleIndicators" class="carousel slide">
+            <div class="carousel-indicators">
+              <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
+              <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="1" aria-label="Slide 2"></button>
+              <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="2" aria-label="Slide 3"></button>
+            </div>
+            <div class="carousel-inner">
+              <div class="carousel-item active">
+                <img src="./images/maszyna1.jpg" class="d-block w-100 carousel-photo" alt="...">
+              </div>
+              <div class="carousel-item">
+                <img src="./images/maszyna2.jpg" class="d-block w-100 carousel-photo" alt="...">
+              </div>
+              <div class="carousel-item">
+                <img src="./images/maszyna3.jpg" class="d-block w-100 carousel-photo" alt="...">
+              </div>
+            </div>
+            <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide="prev">
+              <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+              <span class="visually-hidden">Previous</span>
+            </button>
+            <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide="next">
+              <span class="carousel-control-next-icon" aria-hidden="true"></span>
+              <span class="visually-hidden">Next</span>
+            </button>
+          </div>
+    </div>
+</div>
