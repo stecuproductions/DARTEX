@@ -601,12 +601,15 @@ a > svg:hover {
     .main-index-container{
         height: 500px;
     }
-    .cta-btns{
                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                               }
-
-}
 @media (max-width:1200px) {
     .details-background{
         background:none;
+        margin:0px;
+        padding-top:0px;
+        padding-bottom: 0px;
+    }
+    .index-company-details{
+        margin:30px;
     }
 }
